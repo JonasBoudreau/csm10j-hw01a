@@ -76,6 +76,8 @@ public class Hw01a {
                 System.out.println("\nUnrecognized menu option, exiting");
         }
         
+        inFile.close();
+        
     }
     
 }
